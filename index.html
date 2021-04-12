@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dela+Gothic+One&display=swap" rel="stylesheet">         
+    <link rel="stylesheet" href="style.css">
+    <title>ImersãoDev - Aula 03 - Alura</title>
+</head>
+<body>
+    
+    <h1 class="page-title">Vamos brincar de NEO</h1>
+
+    <p>A chave da Matrix é de um número entre 0 e 20.</p>
+    <p>Tente adivinhar antes do Agente Smith aparecer.</p>
+
+    <div class="form">
+      <label for="guessField">fsociety ~# hack the matrix:</label><input type="text" id="guessField" class="guessField">
+      <input type="submit" value=".exe" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>      
+    </div>
+
+    <audio id="kungFu" src="https://www.myinstants.com/media/sounds/kung-fu-1.mp3"></audio>
+    <audio id="again" src="https://www.myinstants.com/media/sounds/again-1.mp3"></audio>
+    <audio id="agent" src="https://www.myinstants.com/media/sounds/im-gonna-enjoy-watching-you-die-mr-anderson.mp3"></audio>
+
+    <footer>
+        <a href="https://imersao.dev/" target="_blank"><img src="https://i.imgur.com/VPq76h4.png" class="page-logo"
+            alt=""></a>        
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
